@@ -1,0 +1,40 @@
+{
+  // Required
+  "name": "try-clojure-in-chrome",
+  "version": "0.1",
+
+  // Recommended
+  "description": "A fast way to start clojure repl in google chrome",
+  "icons": 
+    {
+      "16" : "clojure-icon-16.png",
+      "32" : "clojure-icon-32.png",
+      "48" : "clojure-icon-48.png",
+      "128" : "clojure-icon.gif"
+    },
+  //"default_locale": "en",
+
+  // Pick one (or none)
+  "browser_action": 
+    {
+      "default_action" : "pref.png",
+      "default_title"  : "try clojure",
+      "default_popup"  : "try-clojure.html"
+    },
+
+  // Add any of these that you need
+  //"background_page": "aFile.html",
+  //"chrome_url_overrides": {...},
+  //"content_scripts": [...],
+  //"minimum_chrome_version": "versionString",
+  //"options_page": "aFile.html",
+  //"plugins": [...],
+  //"update_url": "http://path/to/updateInfo.xml",
+
+  "permissions": 
+    [
+      "tabs",
+      "http://www.try-clojure.org/"
+    ]
+}
+
