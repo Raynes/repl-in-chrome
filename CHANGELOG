@@ -1,0 +1,2 @@
+ Version 0.1
+   - grab selected text on web-page and evaluate it in try-clojure REPL

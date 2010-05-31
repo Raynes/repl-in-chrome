@@ -16,6 +16,7 @@ $(document).ready(
     function() {
 	var controller = $("#console").console({
 	    promptLabel: 'Clojure> ',
+      constructHandle : constructHandle,
 	    commandValidate:function(line){
 		if (line == "") return false;
 		else return true;
